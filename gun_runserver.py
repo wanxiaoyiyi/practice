@@ -5,9 +5,10 @@ import multiprocessing
 debug = True
 loglevel = 'debug'
 bind = '0.0.0.0:8082'
-logfile = '~/wxsmallGame/log/practice/debug.log'
-errorlog = "~/wxsmallGame/log/practice/error.log"
-accesslog = "~/wxsmallGame/log/practice/access.log"
+pidfile = '/var/www/log//gunicorn.pid'
+logfile = '/var/www/log/smallProgram_sanxiao/debug.log'
+errorlog = "/var/www/log/smallProgram_sanxiao/error.log"
+accesslog = "/var/www/log/smallProgram_sanxiao/access.log"
 access_log_format = '%(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"'
 capture_output = True
 keepalive = 5
